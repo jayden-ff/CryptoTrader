@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100 min-h-screen;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md transition-all duration-200 transform hover:scale-105 font-semibold;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-md hover:shadow-lg;
+}
+
+.btn-success {
+  @apply bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-md hover:shadow-lg;
+}
+
+.btn-danger {
+  @apply bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-md hover:shadow-lg;
+}
+
+.card {
+  @apply bg-gray-800 rounded-lg shadow-xl p-6 transition-all duration-300 hover:shadow-2xl;
+}
+
+table {
+  @apply w-full bg-gray-800 rounded-lg overflow-hidden shadow-lg;
+}
+
+th, td {
+  @apply px-4 py-3 border-b border-gray-700 transition-colors duration-200;
+}
+
+th {
+  @apply bg-gray-700 text-left font-semibold;
+}
+
+input, select {
+  @apply bg-gray-700 text-white px-3 py-2 rounded-md shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* Add subtle hover effect for table rows */
+tr:hover {
+  @apply bg-gray-700 transition-colors duration-150;
+}
+
+/* Rest of the CSS remains unchanged */
