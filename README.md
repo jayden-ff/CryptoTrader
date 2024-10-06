@@ -11,42 +11,6 @@ CryptoTrader Pro is a web-based cryptocurrency trading simulation game that allo
 - Responsive design for both desktop and mobile devices 📱💻
 - Dark mode UI with subtle animations for enhanced user experience ✨
 
-## Getting Started 🏁
-
-### Prerequisites
-
-- Node.js (v14 or later)
-- npm (v6 or later)
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/cryptotrader-pro.git
-   cd cryptotrader-pro
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Start the development server:
-   ```
-   npm run dev
-   ```
-
-4. Open your browser and navigate to `http://localhost:5173` to view the application.
-
-## Building for Production 🏗️
-
-To create a production build, run:
-
-```
-npm run build
-```
-
-The built files will be in the `dist` directory.
 
 ## Technologies Used 🛠️
 
