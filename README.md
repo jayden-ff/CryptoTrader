@@ -25,6 +25,8 @@ CryptoTrader Pro is a web-based cryptocurrency trading simulation game that allo
 ## Contributing 🤝
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+Click the Link provided above the Repository Description to comfortably edit and preview the Website and make Pull Requests.
+Disclaimer: The Site's preview does take some time to load but i'm looking into making it faster
 
 ## License 📄
 
